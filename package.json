@@ -8,12 +8,14 @@
   },
   "scripts": {
     "start": "ts-node lighthouse.ts",
+    "translate": "ts-node prompt-translator.ts",
     "build": "npx tsc"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0",
     "@cosmjs/cosmwasm-stargate": "^0.30.1",
     "@cosmjs/proto-signing": "^0.30.1",
     "@noble/hashes": "^1.3.0",
